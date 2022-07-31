@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm</title>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 m-auto">
+                <div class="card shadow">
+                    <div class="card-header">
+                        Alarm Clock
+                    </div>
+                    <div class="card-body">
+                        <form id="alarm_form" action="" class="d-flex justify-content-between">
+                            <div class="my-3">
+                                <input name="date" class="form-control" type="date">
+                            </div>
+                            <div class="my-3">
+                                <input name="time" class="form-control" type="time">
+                            </div>
+                            <div class="my-3">
+                                <input class="btn btn-primary" class="form-control" type="submit" value="Start">
+                            </div>
+                        </form>
+                        <div class="show_time text-center">
+                        </div>
+                        <div class="range">
+                            
+                        </div>
+                        <audio id="a1" src="./assets/audio/twirling-intime-lenovo-k8-note-alarm-tone-41440.mp3"></audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- js file linkup -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./assets/js/function.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
